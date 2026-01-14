@@ -4,6 +4,7 @@ import Register from "./auth/Register";
 import UserDashboard from "./pages/UserDashboard";
 import ProfilePage from "./pages/ProfilePage";
 import StartTest from "./pages/StartTest";
+import TestResult from "./pages/TestResult";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Route path="/dashboard" element={<UserDashboard/>}/>
       <Route path="/profile" element={<ProfilePage/>}/>
       <Route path="/start-test/:id" element={<StartTest />} />
+      <Route path="/test-result" element={<TestResult />} />
       </Routes>
   )
 }
