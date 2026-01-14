@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import TestCard from "../components/Testcard";
+import TestCard from "../components/TestCard";
 
 export default function UserDashboard() {
   return (
@@ -8,7 +8,7 @@ export default function UserDashboard() {
       <Navbar />
 
        <div className="flex-1 p-8 overflow-y-auto">
-        <h2 className="text-xl font-bold mb-4">
+        <h2 className="text-xl font-bold mb-4 text-center">
           Available Tests
         </h2>
 
