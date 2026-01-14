@@ -3,6 +3,7 @@ import Login from "./auth/Login";
 import Register from "./auth/Register";
 import UserDashboard from "./pages/UserDashboard";
 import ProfilePage from "./pages/ProfilePage";
+import StartTest from "./pages/StartTest";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<UserDashboard/>}/>
       <Route path="/profile" element={<ProfilePage/>}/>
+      <Route path="/start-test/:id" element={<StartTest />} />
       </Routes>
   )
 }
