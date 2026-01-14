@@ -5,6 +5,8 @@ import UserDashboard from "./pages/UserDashboard";
 import ProfilePage from "./pages/ProfilePage";
 import StartTest from "./pages/StartTest";
 import TestResult from "./pages/TestResult";
+import AdminDashboard from "./admin/AdminDashboard";
+import AdminLayout from "./admin/AdminLayout";
 
 function App() {
 
@@ -17,6 +19,9 @@ function App() {
       <Route path="/profile" element={<ProfilePage/>}/>
       <Route path="/start-test/:id" element={<StartTest />} />
       <Route path="/test-result" element={<TestResult />} />
+      <Route path="/admin" element={<AdminLayout />}>
+          <Route index element={<AdminDashboard />} />
+      </Route>
       </Routes>
   )
 }
