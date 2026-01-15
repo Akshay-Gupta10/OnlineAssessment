@@ -16,7 +16,7 @@ export default function AdminLayout() {
             end
             className={({ isActive }) =>
               `block px-4 py-2 rounded-lg font-medium ${
-                isActive ? "bg-green-100 text-blue-800" : "hover:bg-gray-100"
+                isActive ? "bg-gray-200 text-blue-800" : "hover:bg-gray-100"
               }`
             }
           >
@@ -27,7 +27,7 @@ export default function AdminLayout() {
             to="/admin/create-test"
             className={({ isActive }) =>
               `block px-4 py-2 rounded-lg font-medium ${
-                isActive ? "bg-green-100 text-blue-800" : "hover:bg-gray-100"
+                isActive ? "bg-gray-200 text-blue-800" : "hover:bg-gray-100"
               }`
             }
           >
@@ -38,7 +38,7 @@ export default function AdminLayout() {
             to="/admin/attempts"
             className={({ isActive }) =>
               `block px-4 py-2 rounded-lg font-medium ${
-                isActive ? "bg-green-100 text-blue-800" : "hover:bg-gray-100"
+                isActive ? "bg-gray-200 text-blue-800" : "hover:bg-gray-100"
               }`
             }
           >
@@ -49,7 +49,7 @@ export default function AdminLayout() {
             to="/admin/analytics"
             className={({ isActive }) =>
               `block px-4 py-2 rounded-lg font-medium ${
-                isActive ? "bg-green-100 text-blue-800" : "hover:bg-gray-100"
+                isActive ? "bg-gray-200 text-blue-800" : "hover:bg-gray-100"
               }`
             }
           >
