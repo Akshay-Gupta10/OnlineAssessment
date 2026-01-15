@@ -141,7 +141,7 @@ export default function StartTest() {
             className={`w-full text-left px-5 py-3 rounded-xl border transition-all duration-200
               ${
                 answers[currentQ] === idx
-                  ? "bg-green-200 text-green-900 border-green-300 text-black scale-[1.02]"
+                  ? "bg-green-200 text-green-900 border-green-300 scale-[1.02]"
                   : "bg-gray-50 hover:bg-blue-50 hover:border-blue-400"
               }`}
           >
