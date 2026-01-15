@@ -31,10 +31,8 @@ export default function UserDashboard() {
           <TestCard title="Spring Boot" duration="50" level="Medium" />
           <TestCard title="AI Basics" duration="40" level="Easy" />
           <TestCard title="System Design" duration="60" level="Hard" />
+      </div>
         </div>
       </div>
-    </div>
   );
 }
-
-

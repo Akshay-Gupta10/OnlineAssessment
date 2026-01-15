@@ -47,6 +47,7 @@ export default function StartTest() {
     loadQuestions();
   }, []);
 
+
   useEffect(() => {
   if (!paletteRef.current) return;
 
