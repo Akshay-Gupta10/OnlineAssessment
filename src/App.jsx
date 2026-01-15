@@ -7,6 +7,9 @@ import StartTest from "./pages/StartTest";
 import TestResult from "./pages/TestResult";
 import AdminDashboard from "./admin/AdminDashboard";
 import AdminLayout from "./admin/AdminLayout";
+import CreateTest from "./admin/CreateTest";
+import TestAttempts from "./admin/TestAttempts";
+import Analytics from "./admin/Analytics";
 
 function App() {
 
@@ -21,6 +24,9 @@ function App() {
       <Route path="/test-result" element={<TestResult />} />
       <Route path="/admin" element={<AdminLayout />}>
           <Route index element={<AdminDashboard />} />
+          <Route path="create-test" element={<CreateTest />} />
+          <Route path="attempts" element={<TestAttempts />} />
+          <Route path="analytics" element={<Analytics />} />
       </Route>
       </Routes>
   )
